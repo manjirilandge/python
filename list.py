@@ -31,6 +31,9 @@ print("Concatenation with single-element list:", l1 + ["sudh"])
 # 7. Repetition
 print("Repeated l1 5 times:", l1 * 5)
 
+
+
+
 # 8. Mutability - Replace element
 l1[0] = "Kunal"
 print("Modified l1:", l1)
@@ -50,6 +53,8 @@ print("Reversed slice (valid):", l[5:2:-1])
 
 # 12. Append Elements
 l1.append(44.4)
+
+
 l.append("Manjiri")
 print("After append l1:", l1)
 print("After append l:", l)

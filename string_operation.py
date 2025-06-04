@@ -16,6 +16,7 @@ print(type(a))
 # Indexing Operations
 # ******************************
 
+
 # Forward indexing
 print(a[2])     # 'n'
 
@@ -96,6 +97,9 @@ l = b.split()
 print(l[3])        # 'Manjiri'
 print(l[0:3])      # ['Hello,', 'This', 'is']
 print(l[::-1])     # Reversed list
+
+
+
 
 # Trying to split a list (Error!)
 # l.split('M')     # ❌ This will raise an AttributeError
